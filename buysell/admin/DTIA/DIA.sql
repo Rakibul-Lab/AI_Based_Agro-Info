@@ -1,0 +1,8 @@
+create database DTIA;
+use DTIA;
+CREATE TABLE `DTIA`.`descrip` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `descrip` VARCHAR(5000) NOT NULL,
+  `image` VARCHAR(300) NOT NULL,
+  `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`));
